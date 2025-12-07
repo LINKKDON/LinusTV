@@ -58,7 +58,7 @@ export function NavigationLoadingIndicator() {
         {/* 加载文字 */}
         <div className='absolute mt-32 text-gray-700 dark:text-gray-300 font-medium text-sm'>
           <span className='animate-pulse'>🌙</span>
-          <span className='animate-pulse' style={{ animationDelay: '0.2s' }}> 月亮正在努力加载中</span>
+          <span className='animate-pulse' style={{ animationDelay: '0.2s' }}> 正在努力加载中</span>
           <span className='animate-pulse' style={{ animationDelay: '0.4s' }}> ✨</span>
         </div>
         </div>
