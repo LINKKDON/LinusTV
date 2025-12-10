@@ -53,7 +53,7 @@ export const UserMenu: React.FC = () => {
   const [isDoubanImageProxyDropdownOpen, setIsDoubanImageProxyDropdownOpen] = useState(false);
 
   const [autoDanmakuEnabled, setAutoDanmakuEnabled] = useState(false);
-  const [enablePreferBestSource, setEnablePreferBestSource] = useState(false);
+  const [enablePreferBestSource, setEnablePreferBestSource] = useState(true);
   const [preferredDanmakuPlatform, setPreferredDanmakuPlatform] = useState("bilibili1");
   const [isDanmakuPlatformDropdownOpen, setIsDanmakuPlatformDropdownOpen] = useState(false);
 
